@@ -1,0 +1,132 @@
+/* Color Recommendations */
+/* Note: First Color Is Darkest, Last One Is Lighest */
+/* Dark Color Scheme */
+/* 1A1A1A > 2E2E2E > 444444 */
+
+/* Font's Imported With GsLibrary */
+/* font-family: 'Onest', sans-serif; */
+/* font-family: 'Rubik', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Anton', sans-serif; */
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Luckiest Guy', cursive; */
+
+* {
+    user-select: none;
+    cursor: auto;
+}
+
+body {
+    /* background-color: #1A1A1A; */
+    background-image: url(res/image.png);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mainContainer {
+    display: block;
+    margin: 40px auto;
+    /* 
+    border: 1px solid rgba(245, 245, 245, 0.25);
+    background-color: rgba(46, 46, 46, 0.75);
+    */
+    border-radius: 6px;
+    width: 95%;
+    min-height: 25%;
+}
+
+.container {
+    display: block;
+    margin: 40px auto;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    /* rgba(238, 130, 238, 0.5); */
+    background-color: #b22222;
+    /* rgba(128, 0, 128, 0.5); */
+    border-radius: 6px;
+    width: 90%;
+    min-height: 25%;
+    padding: 20px;
+}
+
+.heading {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+.heading img {
+    /* margin-right: 5vw; */
+    border: 0.5px rgba(105, 0, 0, 0.5) solid;
+    border-radius: calc(50% - 2.5px);
+    margin-bottom: 20px;
+}
+
+/*
+.heading #text {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.heading #text2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -40px;
+    text-align: left;
+} */
+
+.breaker {
+    border: 1px solid rgba(174, 27, 27, 0.804);
+}
+
+/*
+.lists {
+    padding: 6px 12px;
+    border: 1px solid rgba(174, 27, 27, 0.804);
+    background-color: rgba(255, 255, 255, 0.25);
+} */
+
+.lists {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 50px;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+.item {
+    width: 400px;
+    height: 200px;
+    background-color: rgba(107, 11, 11, 0.523);
+    border-radius: 5px;
+    padding: 20px 60px;
+}
+
+.item p {
+    font-size: 120%;
+}
+
+.item button {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    background-color: rgba(125, 25, 25, 1);
+    border: 1px solid rgba(5, 5, 5, 0.5);
+    color: white;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+/*
+.item button i {
+    margin-right: 10px;
+    margin-left: -10px;
+}
+*/

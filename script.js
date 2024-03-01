@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", (event) => {
-    console.log("Website Has Been Loaded");
+    window.alert("Sorry for the popup.. this is a notice that the buttons goto duplicated versions of the homescreen, and as of right now i dont know what i will be doing with this. also note, ive never made websites designed to be good on mobile.. this is no different. so sorry..")
 });
 
 const projects = document.getElementById("projects");

@@ -1,5 +1,10 @@
 document.addEventListener("DOMContentLoaded", (event) => {
-    window.alert("Sorry for the popup.. this is a notice that the buttons goto duplicated versions of the homescreen, and as of right now i dont know what i will be doing with this. also note, ive never made websites designed to be good on mobile.. this is no different. so sorry..")
+    if (!localStorage.getItem('Alerted') || localStorage.getItem('Alerted') !== 'true') {
+        // Display the alert
+        alert('hi');
+        // Set Alerted to true in localStorage
+        localStorage.setItem('Alerted', 'true');
+    };
 });
 
 const projects = document.getElementById("projects");

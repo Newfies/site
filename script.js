@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", (event) => {
-    if (!localStorage.getItem('Alerted') || localStorage.getItem('Alerted') !== 'true') {
+    if (!localStorage.getItem('Alerted') || localStorage.getItem('Alerted') !== 'viewed') {
         // Display the alert
-        alert('hi');
+        alert("All pages will display the same thing as they are just duplicated, This website is currently a testing/example page.. It may be removed, Its still a WIP and is designed to become a About Me page. Please note this is not designed to be viewed on mobile devices and may look wacky if your on it.");
         // Set Alerted to true in localStorage
-        localStorage.setItem('Alerted', 'true');
+        localStorage.setItem('Alerted', 'viewed');
     };
 });
 

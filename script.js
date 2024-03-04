@@ -8,18 +8,16 @@ document.addEventListener("DOMContentLoaded", (event) => {
 });
 
 const projects = document.getElementById("projects");
-const contributes = document.getElementById("contributes");
+const contributions = document.getElementById("contributions");
 const landm = document.getElementById("landm");
 const contacts = document.getElementById("contacts");
-
-/*
 
 projects.addEventListener("click", function(){
     window.location.assign("projects.html");
 });
 
-contributes.addEventListener("click", function(){
-    window.location.assign("contributes.html");
+contributions.addEventListener("click", function(){
+    window.location.assign("contributions.html");
 });
 
 landm.addEventListener("click", function(){
@@ -29,5 +27,3 @@ landm.addEventListener("click", function(){
 contacts.addEventListener("click", function(){
     window.location.assign("contacts.html");
 });
-
-*/

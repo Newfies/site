@@ -130,3 +130,9 @@ body {
     margin-left: -10px;
 }
 */
+
+.intb {
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+}
